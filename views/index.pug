@@ -5,11 +5,15 @@ html
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel='stylesheet', href='./style.css')
+    link(rel='script' href='../server.js')
+    link(rel='stylesheet', href='../output.css')
   body
-    h1.justify-center.font-bold How Many Days Until... ?
+    h1.justify-center.font-bold.mx-auto 
+    |  How Many Days Until... ?
     hr
-    div#events_div.justify-center
+    div#events_div.justify-center.bg-slate-100.mx-auto
         div.event Sample Event (10 days)
         div.event Sample Event 2 (23 days)
         div.event Sample Event 3 (100 days)
+  p.bg-slate-100.font-bold.mx-auto 
+  |  This is a paragraph
