@@ -5,7 +5,7 @@ const app = express();
 
 app.set("view engine", "pug");
 
-const compiledPug = pug.renderFile("./views/index.pug");
+const compiledPug = pug.renderFile("views/index.pug");
 
 app.get("/", (req, res) => {
   res.send(compiledPug);
