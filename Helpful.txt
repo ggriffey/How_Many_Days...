@@ -1,2 +1,0 @@
-Tailwind compiler function: 
-    npx tailwindcss -i ./style.css -o ./output.css

@@ -9,6 +9,7 @@ const compiledPug = pug.renderFile("./views/index.pug");
 
 app.get("/", (req, res) => {
   res.send(compiledPug);
+  console.log("ok");
 });
 
 app.listen(3000, () => {
